@@ -9,7 +9,7 @@
         <meta name="description" content="Github portfolio for Eamon Howell">
         <link rel="stylesheet" href="/styles/headAndFoot.css">
         <link rel="stylesheet" href="/styles/body.css">
-        <link rel="stylesheet" href="/styles/projects.css"
+        <link rel="stylesheet" href="/styles/projects.css">
     </head>
     <body>
         <!-- Header information and Links -->
@@ -22,13 +22,62 @@
             </nav>
         </header>
         <hr>
+        <!-- Content -->
         <div class="content">
             <nav id="projectParts">
-                <a href="#">School Projects</a>
-                <a href="#">Personal Projects</a>
+                <a href="#school">School Projects</a>
+                <a href="#personal">Personal Projects</a>
             </nav>
             <hr>
-            
+            <section id="school">
+                <h2>School Projects</h2>
+                <hr class="between">
+            </section>
+            <hr>
+            <section id="personal">
+                <h2>Personal Projects</h2>
+                <p>
+                    My personal Projects are a way for me to generally test out different
+                    ideas for how something works. They are a way for me to mess around with some
+                    library and figure out how to use it for something larger later.
+                </p>
+                <hr class="between">
+                <section id="pythonasr" class="project">
+                    <h3>PythonAsR</h3>
+                    <figure>
+                        <img src="https://mattsosna.com/images/r-python.png" alt="Python and R logos">
+                    </figure>
+
+                    <p>
+                        In my statistical modeling class, we learned about the math behind R's lm function.
+                        For those unaware, this function can take in data, a linear equation, and then output
+                        the coefficients for that equation, as well as if a coefficient helps explain variance in the model.
+                        To determine if I had learned the math correctly, I went and wrote code to do the math in Python.
+                        As of currently, the lm model works correctly, and I am trying to 1) allow for variable names i
+                        the equation, and 2) allow for a user to take an R's lm summary output and compare it to this one's output.
+                    </p>
+                    <p>
+                        <u>Github Repo</u>:
+                        <a href="#">PythonAsR</a>
+                    </p>
+                </section>
+                <hr class="between">
+                <section class="project">
+                    <h3>EmailStoreAndCheck</h3>
+                    <figure>
+                        <img src="/assets/questionary.png" alt="Questionary Example">
+                    </figure>
+
+                    <p>
+                        For this project, I encountered a Python library called Questionary. It is a library that, when a program
+                        with the library is called, can have a user enter things into the command line in a way like an HTML form input.
+                        You can limit a user to a selection of choices, you can ask a user to confirm a choice, and so many other things.
+                        It basically allows you to get a user input with automatic validation.
+                        I used the library in a quick little code to parse an email, and then write it to
+                        a Json file for storage. 
+                    </p>
+                </section>
+            </section>
         </div>
         <hr>
         <footer id="footer">
@@ -41,8 +90,10 @@
             <p>
                 Last updated:
             </p>
-            <p id="resumeUp">
-                Resume last updated:
+            <p>
+                The images used for the Personal Projects were taken from the web. For PythonAsR, I got the image from 
+                <a href="https://mattsosna.com/R-to-Python/" target="_blank">Perspectives on Python after R</a>, and for the EmailStoreAndCheck
+                I took a screenshot of the example on the <a href="https://pypi.org/project/questionary/" target="_blank">questionary documentation</a> page.
             </p>
         </footer>
     </body>

@@ -10,3 +10,30 @@ nav#projectParts {
     text-align: center;
     scroll-behavior: smooth;
 }
+
+hr.between {
+    border-bottom:2px dotted #ccc;
+    border-top: 2px dotted #ccc;
+}
+
+section.project {
+    max-width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+section.project h3 {
+    text-align: center;
+}
+
+
+figure img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+}
+
+section p a {
+    text-decoration: none;
+}
