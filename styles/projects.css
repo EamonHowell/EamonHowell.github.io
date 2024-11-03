@@ -1,0 +1,12 @@
+nav#projectParts a {
+    text-decoration: none;
+}
+
+nav#projectParts a:first-of-type {
+    margin-right: 3vw;
+}
+
+nav#projectParts {
+    text-align: center;
+    scroll-behavior: smooth;
+}

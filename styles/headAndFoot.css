@@ -24,13 +24,6 @@
     list-style: none;
 }
 
-nav span {
-    margin-left: 1rem !important;
-    margin-right: 1rem !important;
-    font-family: berkley;
-    font-size: 25px;
-}
-
 nav.links a {
     font-size: 25px;
     text-decoration: none;
