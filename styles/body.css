@@ -49,3 +49,37 @@ ul#weld li{
     margin-right: 2vw;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+ul#contact {
+    line-height: 1.5;
+    list-style: none;
+}
+li#linked::before {
+    content: '';
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/174/174857.png);
+    background-size: contain;
+    margin: 0 0.5em -0.25em -1em;
+}
+
+li#email::before {
+    content: '';
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    background-image: url(/assets/mail.png);
+    background-size: contain;
+    margin: 0 0.5em -0.25em -1em;
+}
+
+li#git::before {
+    content: '';
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    background-image: url(https://cdn.cdnlogo.com/logos/g/55/github.svg);
+    background-size: contain;
+    margin: 0 0.5em -0.25em -1em;
+}
