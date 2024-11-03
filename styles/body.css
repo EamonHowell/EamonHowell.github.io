@@ -23,3 +23,29 @@ img {
     font-size: 16px;
 }
 
+
+ul#languages li {
+    display: inline;
+    margin-right: 2vw;
+    font-family: "berkley";
+    font-size: 20px;
+}
+
+ul#tools li {
+    display: inline-block;
+    margin-right: 2vw;
+    font-family: "futura";
+    font-size: 20px;
+}
+
+ul#soft {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    list-style-type: circle;
+}
+
+ul#weld li{
+    display: inline;
+    margin-right: 2vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
