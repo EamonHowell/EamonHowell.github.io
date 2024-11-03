@@ -35,3 +35,11 @@ nav.links a {
     font-size: 25px;
     text-decoration: none;
 }
+
+nav.links a:not(:first-child) {
+    margin-left: 1rem;
+}
+
+nav.links a:hover {
+    color: red;
+}
