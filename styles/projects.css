@@ -37,3 +37,7 @@ figure img {
 section p a {
     text-decoration: none;
 }
+
+section.school h3 {
+    text-align: center;
+}
