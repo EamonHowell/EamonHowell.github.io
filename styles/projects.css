@@ -16,13 +16,13 @@ hr.between {
     border-top: 2px dotted #ccc;
 }
 
-section.project {
+section#project {
     max-width: 750px;
     margin-right: auto;
     margin-left: auto;
 }
 
-section.project h3 {
+section#project h3 {
     text-align: center;
 }
 
@@ -38,6 +38,14 @@ section p a {
     text-decoration: none;
 }
 
-section.school h3 {
+section#school h3 {
     text-align: center;
+}
+
+section#projNav {
+    top: 150px;
+    left: 20px;
+    position: fixed;
+    text-align: center;
+    background-color: white;
 }
