@@ -4,7 +4,7 @@
     max-width: 1000px;
     position: relative;
     align-items: center;
-
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-left: auto;
     margin-right: auto;
 }
@@ -42,4 +42,13 @@ nav.links a:not(:first-child) {
 
 nav.links a:hover {
     color: red;
+}
+
+#footer {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#footer #resumeUp {
+    font-size: 14px;
 }
