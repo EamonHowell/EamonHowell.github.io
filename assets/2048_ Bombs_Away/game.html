@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <link rel="stylesheet" href="bombsAway.css">
+    </head>
+    <body>
+      <div class="game">
+        <div id="thumbnail">&#128163;</div>
+        <div class="head">
+          <div class="name">2048 Bombs Away</div>
+        </div>
+      </div>
+      <div class="field">
+        <div class="row">
+          <div class="cell" id="cell11">1,1</div>
+          <div class="cell" id="cell12">1,2</div>
+          <div class="cell" id="cell13">1,3</div>
+          <div class="cell" id="cell14">1,4</div>
+        </div>
+        <div class="row">
+          <div class="cell" id="cell21">2,1</div>
+          <div class="cell" id="cell22">2,2</div>
+          <div class="cell" id="cell23">2,3</div>
+          <div class="cell" id="cell24">2,4</div>
+        </div>
+        <div class="row">
+          <div class="cell" id="cell31">3,1</div>
+          <div class="cell" id="cell32">3,2</div>
+          <div class="cell" id="cell33">3,3</div>
+          <div class="cell" id="cell34">3,4</div>
+        </div>
+        <div class="row">
+          <div class="cell" id="cell41">4,1</div>
+          <div class="cell" id="cell42">4,2</div>
+          <div class="cell" id="cell43">4,3</div>
+          <div class="cell" id="cell44">4,4</div>
+        </div>
+        </div>
+        <div class="buttons">
+          <button id="left" class="arrow" onclick="triggerEvent('ArrowLeft')">&larr;</button>
+          <button id="up" class="arrow" onclick="triggerEvent('ArrowUp')">&#8593;</button>
+          <button id="down" class="arrow" onclick="triggerEvent('ArrowDown')">&#8595;</button>
+          <button id="right" class="arrow" onclick="triggerEvent('ArrowRight')">&#8594;</button>
+          <button id="bombButton" onclick="triggerEvent('b')">&#128163;</button>
+        </div>
+        <div class="instruc">
+          <h3>Hello and welcome to 2048: Bomb's Away</h3>
+          <p>Here is how to play the game:</p>
+          <ul class="rules">
+            <li>Use the arrow buttons or the arrow keys to shift tiles</li>
+            <li>Tiles of the same number will combine</li>
+            <li>One time during each game, you can detonate a bomb</li>
+            <li>Detonate a bomb by pressing 'b' or the bomb button</li>
+            <li>The bomb explodes in a plus shape around the selected tile</li>
+            <li>Tiles blown up by bombs DO NOT contribute to your score</li>
+            <li>Try to get as many points as possible by getting larger tiles</li>
+            <li>If you can't combine any more tiles, you lose!</li>
+          </ul>
+          <p id="score">score=</p>
+          <p id="lose"></p>
+          <button id="resetButton" onclick="reset()">RESET</button>
+        </div>
+      </div>
+    <script src="bombsAway.js"></script>
+    </body>
+
+</html>
+

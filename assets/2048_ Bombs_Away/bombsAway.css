@@ -1,0 +1,310 @@
+body {
+background-color: #e0e8f5;
+padding: 0;
+margin: 0;
+}
+
+
+/* head */
+.head {
+    height: 120px;
+    width: 510px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.game {
+    box-shadow: 0px 0px 3px rgba(0,0,0,1);
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+.arrow {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #88b1ef;
+    font-size: 30px;
+    top: 1px;
+    border: 2px solid #aaaa;
+    border-radius: 50%;
+    transition: 0.1s background-color;
+}
+
+.arrow:hover {
+    background-color: #6593d8;
+    color: red;
+    cursor: pointer;
+}
+
+
+.name {
+    font-family: cursive;
+    font-size: 60px;
+    font-weight: 200;
+    margin-left: -7vw;
+}
+
+#thumbnail {
+    float: left;
+    font-size: 5vw;
+}
+
+
+/* field */
+.field {
+    margin-top: 2vh;
+    width: 510px;
+    height: 510px;
+    background-color: #888;
+    top: 150px;
+    border-radius: 0px;
+    border:5px solid #888;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+
+.row {
+    width: 510px;
+    height: 135px;
+    position: relative;
+    display: table-row;
+}
+
+.cell {
+    background-color: white;
+    width: 125px;
+    height: 125px;
+    position: relative;
+    display: table-cell;
+    border-radius: 0px;
+    border: 5px solid #888;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+}
+.cell2 {
+    background-color: purple;
+    width: 125px;
+    height: 125px;
+    position: relative;
+    display: table-cell;
+    border-radius: 0px;
+    border: 5px solid #888;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+}
+
+.cell4 {
+    background-color: violet;
+    width: 125px;
+    height: 125px;
+    position: relative;
+    display: table-cell;
+    border-radius: 0px;
+    border: 5px solid #888;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+}
+
+.cell8 {
+    background-color: blueviolet;
+    width: 125px;
+    height: 125px;
+    position: relative;
+    display: table-cell;
+    border-radius: 0px;
+    border: 5px solid #888;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+}
+
+.cell16 {
+    background-color: blue;
+    width: 125px;
+    height: 125px;
+    position: relative;
+    display: table-cell;
+    border-radius: 0px;
+    border: 5px solid #888;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+}
+
+.cell32 {
+    background-color: green;
+    width: 125px;
+    height: 125px;
+    position: relative;
+    display: table-cell;
+    border-radius: 0px;
+    border: 5px solid #888;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+}
+
+.cell64 {
+    background-color: yellowgreen;
+    width: 125px;
+    height: 125px;
+    position: relative;
+    display: table-cell;
+    border-radius: 0px;
+    border: 5px solid #888;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+}
+
+.cell128 {
+    background-color: yellow;
+    width: 125px;
+    height: 125px;
+    position: relative;
+    display: table-cell;
+    border-radius: 0px;
+    border: 5px solid #888;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+}
+
+.cell256 {
+    background-color: orange;
+    width: 125px;
+    height: 125px;
+    position: relative;
+    display: table-cell;
+    border-radius: 0px;
+    border: 5px solid #888;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+}
+
+.cell512 {
+    background-color: orangered;
+    width: 125px;
+    height: 125px;
+    position: relative;
+    display: table-cell;
+    border-radius: 0px;
+    border: 5px solid #888;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+}
+
+.cell1024 {
+    background-color: red;
+    width: 125px;
+    height: 125px;
+    position: relative;
+    display: table-cell;
+    border-radius: 0px;
+    border: 5px solid #888;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+}
+
+.cell2048 {
+    background-color: darkred;
+    width: 125px;
+    height: 125px;
+    position: relative;
+    display: table-cell;
+    border-radius: 0px;
+    border: 5px solid #888;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+}
+
+.instruc {
+    display: block;
+    position: fixed;
+    top: 130px;
+    right: 0;
+    margin-right: 75px;
+    background-color: #6593d8;
+    padding: 5px;
+    align-items: center;
+}
+
+.instruc h3,p {
+    font-family: fantasy;
+    text-align: center;
+}
+
+#resetButton {
+    width:100%;
+    background-color: #88b1ef; 
+    color: white;
+    border: 2px solid #aaaa; 
+    border-radius: 12px; 
+    font-weight: bold;
+    font-size: large;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+#resetButton:hover {
+    background-color: #6593d8;
+    color: red;
+}
+#bombButton{
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #88b1ef;
+    font-size: 30px;
+    top: 1px;
+    border: 2px solid #aaaa;
+    border-radius: 50%;
+    transition: 0.1s background-color;
+}
+
+#bombButton:hover {
+    background-color: #6593d8;
+    color: red;
+    cursor: pointer;
+}
+
+#bombButton:disabled {
+    background-color: red;
+    color: red;
+    cursor: not-allowed;
+}
+
+@media screen and (max-width: 1600px) {
+   
+    .instruc {
+        position: relative;
+        margin-right: 0;
+        top: 20px;
+        width: 100%;
+        padding: 10px;
+    }
+
+}
